@@ -11,3 +11,6 @@ license = "MIT OR Apache-2.0"
 maintainer = "ChromoRust"
 description = "Rust app"
 depends = "$auto"
+
+[alias]
+build-deb = "build && deb"
